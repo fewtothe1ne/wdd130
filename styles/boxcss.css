@@ -1,0 +1,24 @@
+body {
+    background-color: #1e1e2e;
+    font-family: monospace;
+    text-align: center;
+    margin: 19%;
+}
+h1 {
+    color: #89b4fa;
+}
+h2 {
+    color: #b4befe;
+}
+p {
+    color: #cdd6f4;
+    line-height: 1.8;
+}
+#little-chud {
+    color: #f38ba8;
+}
+#ohwow {
+    padding: 10px;
+    border: solid 5px #cba6f7;
+    display: inline;
+}

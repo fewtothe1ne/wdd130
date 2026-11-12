@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Apostles Spotlights</title>
+        <style>
+            body {
+                background-color: #e8eced;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+            }
+            img {
+                border-radius: 100%;
+                object-fit: cover;
+                height: 100px;
+                width: 100px;
+                border: 5px solid white;
+            }
+            h1,
+            h2 {
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+            }
+            #container {
+                background-image: url("images/christus.webp");
+                background-size: cover;
+                display: grid;
+                grid-column: 2/3;
+                text-align: center;
+                place-items: center;
+                width: 900px;
+                border: 8px solid black;
+                border-radius: 50px;
+            }
+            #thetwelve {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+            #thefirst {
+                display: flex;
+                place-items: center;
+                gap: 25px;
+            }
+            #thefirst img:nth-child(2) {
+                height: 125px;
+                width: 125px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Insert HTML elements here -->
+        <div id="container">
+            <h1>First Presidency</h1>
+            <div id="thefirst">
+                <img src="images/eyring.webp" />
+                <img src="images/oaks.webp" />
+                <img src="images/christofferson.webp" />
+            </div>
+            <h2>Quorum of the Twelve Apostles</h2>
+            <div id="thetwelve">
+                <img src="images/uchtdorf.webp" />
+                <img src="images/bednar.webp" />
+                <img src="images/cook.webp" />
+                <img src="images/anderson.webp" />
+                <img src="images/rasband.webp" />
+                <img src="images/stevenson.webp" />
+                <img src="images/renlund.webp" />
+                <img src="images/gong.webp" />
+                <img src="images/soares.webp" />
+                <img src="images/kearon.webp" />
+                <img src="images/causse.webp" />
+                <img src="images/gilbert.webp" />
+            </div>
+        </div>
+    </body>
+</html>
